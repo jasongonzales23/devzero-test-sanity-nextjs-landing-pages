@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_devzero_test_sanity_nextjs_landing_pages_1689200873445-pr-trigger-input-set
+  identifier: Build_devzero_test_sanity_nextjs_landing_pages_1689200873445prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_devzero_test_sanity_nextjs_landing_pages_1689200873445
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
